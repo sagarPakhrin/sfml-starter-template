@@ -3,6 +3,6 @@ using namespace sf;
 
 int main()
 {
-		Sagar::Game(80,600 "Snake Game");
+		Sagar::Game(800,600,"Snake Game");
 		return EXIT_SUCCESS;
 }
