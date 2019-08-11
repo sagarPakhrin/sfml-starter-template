@@ -10,4 +10,3 @@
 
 #define GAME_BACKGROUND_FILE_PATH "Resources/images/gameBackground.png"
 #define PAUSE_BUTTON "Resources/res/Pause Button.png"
-
