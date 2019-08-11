@@ -4,7 +4,7 @@ src = src
 CC = g++
 
 TARGET: main.o StateMachine.o AssetManager.o InputManager.o Game.o
-	$(CC) StateMachine.o AssetManager.o main.o -o main -lsfml-graphics -lsfml-window -lsfml-system
+	$(CC) StateMachine.o Game.o AssetManager.o main.o -o main -lsfml-graphics -lsfml-window -lsfml-system
 
 main.o: src/main.cpp
 	$(CC) $(CFLAGS) $(src)/main.cpp
